@@ -1,6 +1,6 @@
 
 import GlobalStyle from './styles/GlobalStyle';
-import Login from './pages/Login';
+import Login from './pages/Login/Login';
 import Register from './pages/Register';
 
 export const App = () => {
@@ -9,7 +9,7 @@ export const App = () => {
     <div className="App">
       <GlobalStyle />
       {/* <Login /> */}
-      <Register />
+      <Login />
       
     
     </div>
