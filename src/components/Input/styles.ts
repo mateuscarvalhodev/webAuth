@@ -26,6 +26,21 @@ input {
   border: none;
   color: var(--color-primary);
   padding: 5px;
+  font-size: 16px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-primary);
+  -webkit-box-shadow: 0 0 0px 1000px #0000 inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 label {
@@ -38,20 +53,6 @@ label {
   left: 12px;
 
   transition: top 0.5s, left 0.3s ease-out;
-}
-
-input:focus + label, input:not(:placeholder-shown) + label {
-  top: -12px;
-  left: 10px;
-
-  background: var(--color-primary);
-  height: fit-content;
-
-  border-radius: 14px;
-  padding: 4px 10px;
-
-  color: #000;
-  font-size: 14px;
 }
 
 input:focus ~ svg {

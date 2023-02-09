@@ -10,16 +10,18 @@ fieldset {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+
 legend {
   float: left;
   font-size: 20px;
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
-
   display: flex;
 }
 button {
   margin-top: 15px;
+  border-radius: 4px;
+  font-size: 18px;
 }
 `;
