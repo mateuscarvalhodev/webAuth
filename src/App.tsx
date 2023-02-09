@@ -8,8 +8,8 @@ export const App = () => {
   return (
     <div className="App">
       <GlobalStyle />
+      <Register />
       {/* <Login /> */}
-      <Login />
       
     
     </div>
